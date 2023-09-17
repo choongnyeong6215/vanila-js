@@ -1,0 +1,98 @@
+body {
+  background-size: 100vw 100vh; 
+  color: white;
+  /* 구글 폰트 */
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* weather style */
+.weatherInfo {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+#weatherLogo {
+  background-color: transparent;
+}
+
+#city, #weather {
+  color: black;
+}
+
+/* loginform, todolistform position */
+.loginFormGroup, .todoFormGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+/* clock style */
+#clock {
+  text-align: center;
+  font-size: 7rem;
+}
+
+input[type=text] {
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: white;
+}
+
+/* login style */
+#input {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  width: 25rem;
+  text-align: center;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+/* todolist style */
+#todo-input {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+/* todolist list style */
+#todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#todo-list li {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+/* deletee todolist button style */
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.hidden {
+  display: none;
+}
